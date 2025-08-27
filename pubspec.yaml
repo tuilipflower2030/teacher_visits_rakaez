@@ -1,0 +1,20 @@
+name: teacher_visits
+description: Cross-platform app for teacher visit evaluations (Arabic-first).
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  path_provider: ^2.1.4
+  share_plus: ^10.0.2
+  intl: ^0.19.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
